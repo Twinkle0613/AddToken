@@ -1,0 +1,21 @@
+---
+:source:
+  :path: test
+  :file: test_Token.c
+:successes:
+- :test: test_createOperatorToken
+  :line: 9
+  :message: ''
+- :test: test_createIntegerToken
+  :line: 26
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 2
+  :failed: 0
+  :ignored: 0
+:stdout:
+- InTk->value = 9
+- ''
